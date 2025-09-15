@@ -1,0 +1,23 @@
+START
+List items in the store with their prices and the stock available
+Items available:
+name: Bread, price: 1500, stock: 12
+name: Eggs, price: 300, stock: 24
+name: Coffee, price: 250, stock: 10
+name: Fanta, price: 500, stock: 24
+Show the buyer the list of items with their prices
+Ask the buyer what item they want to buy
+Ask the quantity they want
+Check if the item is in the list and available
+If its not tell the buyer that its not available
+If it is available go on to process the order
+If the quantity requested is more than the stock then tell the buyer that there isn't enough stock
+Calculate the total cost by multiplying the price of the item by the quantity the buyer is taking
+Tell the buyer the total cost
+Ask the buyer to pay the money they have
+If the money is less than the total cost, tell the buyer the money isnt enough
+If it is equal to or more than the cost, Calculate the buyers canged my subtracting the total cost from the money paid
+Give the buyer the change
+Tell the buyer the purchase was successful
+Reduce the stock of the item by quantity bought. Ex: 10 originally and buyer bought 5 so new stock is 5
+END
